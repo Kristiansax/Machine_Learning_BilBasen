@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.svm import SVC
 
-
+# Old script
 # Importing data
 basen = pd.read_csv('bilbasen3.csv', sep=';', keep_default_na=False, na_values=['-', 'Ring'])
 
